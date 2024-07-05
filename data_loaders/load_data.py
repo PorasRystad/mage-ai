@@ -16,6 +16,7 @@ def load_data_from_api(**kwargs) -> DataFrame:
         sheet_name=7,
         skiprows=4
     )
+    print("DUMMY")
     return df_from_url
 
 
